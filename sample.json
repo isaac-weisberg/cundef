@@ -41,5 +41,11 @@
                 "keys": [ "preview", "svg" ]
             }
         }
+    ],
+    "maps": [
+        {
+            "title": "Model Categories",
+            "codepath": "modelCategories"
+        }
     ]
 }

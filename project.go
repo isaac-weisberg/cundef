@@ -7,4 +7,5 @@ type Project struct {
 	Unmul        []UnversionedMultiAtomicAssetGroup  `json:"unmul"`
 	Versin       []VersionedSingleAtomicAssetGroup   `json:"versin"`
 	Vermul       []VersionedMultiAtomicAssetGroup    `json:"vermul"`
+	Maps         []AssetMap                          `json:"maps"`
 }
