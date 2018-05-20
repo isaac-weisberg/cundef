@@ -2,10 +2,9 @@ package cundef
 
 // UnversionedSingleAtomicAssetGroup is a description of asset group in which all assets are single atoms and don't need to CVSd
 type UnversionedSingleAtomicAssetGroup struct {
-	Title     string `json:"title"`
-	Root      string `json:"root"`
-	Codepath  string `json:"codepath"`
-	Classname string `json:"classname"`
+	Title    string `json:"title"`
+	Root     string `json:"root"`
+	Codepath string `json:"codepath"`
 }
 
 // UnversionedMultiAtomicAssetGroup is a description of an asset group in which all assets are multi-atomic and don't need to be CVSd
