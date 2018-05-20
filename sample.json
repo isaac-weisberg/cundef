@@ -1,0 +1,45 @@
+{
+    "title": "Pobjects",
+    "unsin": [
+        {
+            "title": "Information",
+            "root": "info",
+            "codepath": "infos"
+        }
+    ],
+    "unmul": [
+        {
+            "title": "Normal maps",
+            "root": "normalMap",
+            "codepath": "normalMaps",
+            "asset": {
+                "keys": [ "preview", "texture" ]
+            }
+        }
+    ],
+    "versin": [
+        {
+            "title": "Colors",
+            "root": "colors",
+            "codepath": "colors"
+        }
+    ],
+    "vermul": [
+        {
+            "title": "Stickers",
+            "root": "imageAssets",
+            "codepath": "stickers",
+            "asset": {
+                "keys": [ "preview", "svg" ]
+            }
+        },
+        {
+            "title": "Rims",
+            "root": "imageAssets",
+            "codepath": "rims",
+            "asset": {
+                "keys": [ "preview", "svg" ]
+            }
+        }
+    ]
+}
