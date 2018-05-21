@@ -5,7 +5,8 @@ import (
 	"io/ioutil"
 )
 
-func read(path string) (*Project, error) {
+// Read is a shortcut function to read and parse projects
+func Read(path string) (*Project, error) {
 	var error error
 	var data []byte
 	data, error = ioutil.ReadFile(path)
