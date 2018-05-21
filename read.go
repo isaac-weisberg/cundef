@@ -13,10 +13,10 @@ func Read(path string) (*Project, error) {
 	if error != nil {
 		return nil, error
 	}
-	var project = Project{}
+	var project = &Project{}
 	error = json.Unmarshal(data, project)
 	if error != nil {
 		return nil, error
 	}
-	return &project, nil
+	return project, nil
 }
